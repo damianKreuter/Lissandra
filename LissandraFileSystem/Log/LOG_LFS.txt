@@ -1,0 +1,278 @@
+[INFO] 07:53:00:194 Proceso Lissandra File System/(23536:23536): [LOG CREADO] continuamos cargando la estructura de configuracion.
+[INFO] 07:53:00:194 Proceso Lissandra File System/(23536:23536): Por crear el archivo de config para levantar archivo con datos.
+[INFO] 07:53:00:223 Proceso Lissandra File System/(23536:23536): LissandraFS: Leyendo Archivo de Configuracion...
+[INFO] 07:53:00:223 Proceso Lissandra File System/(23536:23536): El puerto de escucha es: 5003
+[INFO] 07:53:00:223 Proceso Lissandra File System/(23536:23536): El punto de montaje es: /home/utnso/lfs-stress
+[INFO] 07:53:00:223 Proceso Lissandra File System/(23536:23536): El retardo de respuesta es: 0
+[INFO] 07:53:00:223 Proceso Lissandra File System/(23536:23536): El tamanio del valor es: 60
+[INFO] 07:53:00:224 Proceso Lissandra File System/(23536:23536): El tiempo de dumpeo es: 20000
+[INFO] 07:53:00:224 Proceso Lissandra File System/(23536:23536): La IP es: 127.0.0.1
+[INFO] 07:53:00:224 Proceso Lissandra File System/(23536:23536): levantando metadata del File System
+[INFO] 07:53:00:224 Proceso Lissandra File System/(23536:23536): LFS: Leyendo metadata...
+[INFO] 07:53:00:224 Proceso Lissandra File System/(23536:23536): el tamanio del bloque es: 128
+[INFO] 07:53:00:224 Proceso Lissandra File System/(23536:23536): La cantidad de bloques es: 8192
+[INFO] 07:53:00:224 Proceso Lissandra File System/(23536:23536): el magic number es: LISSANDRA
+[INFO] 07:53:00:260 Proceso Lissandra File System/(23536:23536): Voy a crear los bloques
+[INFO] 07:53:07:188 Proceso Lissandra File System/(23536:23536): los bloques fueron creados
+[INFO] 07:53:07:189 Proceso Lissandra File System/(23536:23536): La configuracion y la metadata se levantaron correctamente
+[INFO] 07:53:07:209 Proceso Lissandra File System/(23536:23536): Busco tablas en disco
+[INFO] 07:53:07:210 Proceso Lissandra File System/(23536:23536): Voy a cargar bitmap
+[INFO] 07:53:07:210 Proceso Lissandra File System/(23536:23536): Archivo de bitmap no existe, se procede a crear el bitmap
+[INFO] 07:53:07:233 Proceso Lissandra File System/(23536:23536): cantidad de bloques libres en el bitmap: 8192
+[INFO] 07:53:07:259 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Entrando a hilo de escucha del servidor del LFS
+[INFO] 07:53:07:259 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:53:16:630 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:53:16:630 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:53:16:646 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:53:16:694 Proceso Lissandra File System/(23536:23549): [CLIENTE] El cliente se desconectó
+[INFO] 07:53:16:706 Proceso Lissandra File System/(23536:23549): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:53:16:706 Proceso Lissandra File System/(23536:23549): [CLIENTE] Finalizando el hilo
+[INFO] 07:53:19:589 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:53:19:589 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:53:19:590 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:53:19:616 Proceso Lissandra File System/(23536:23567): [CLIENTE] El cliente se desconectó
+[INFO] 07:53:19:616 Proceso Lissandra File System/(23536:23567): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:53:19:617 Proceso Lissandra File System/(23536:23567): [CLIENTE] Finalizando el hilo
+[INFO] 07:53:27:258 Proceso Lissandra File System/(23536:23547): Es tiempo de dump, verificando si hay cosas en la memtable
+[INFO] 07:53:27:259 Proceso Lissandra File System/(23536:23547): La memtable esta vacia
+[INFO] 07:53:32:7 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:53:32:8 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:53:32:8 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:53:32:155 Proceso Lissandra File System/(23536:23606): [CLIENTE] El cliente se desconectó
+[INFO] 07:53:32:156 Proceso Lissandra File System/(23536:23606): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:53:32:156 Proceso Lissandra File System/(23536:23606): [CLIENTE] Finalizando el hilo
+[INFO] 07:53:34:829 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:53:34:830 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:53:34:831 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:53:34:969 Proceso Lissandra File System/(23536:23614): [CLIENTE] El cliente se desconectó
+[INFO] 07:53:34:969 Proceso Lissandra File System/(23536:23614): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:53:34:970 Proceso Lissandra File System/(23536:23614): [CLIENTE] Finalizando el hilo
+[INFO] 07:53:37:852 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:53:37:852 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:53:37:852 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:53:37:878 Proceso Lissandra File System/(23536:23620): [CLIENTE] El cliente se desconectó
+[INFO] 07:53:37:881 Proceso Lissandra File System/(23536:23620): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:53:37:912 Proceso Lissandra File System/(23536:23620): [CLIENTE] Finalizando el hilo
+[INFO] 07:53:47:261 Proceso Lissandra File System/(23536:23547): Es tiempo de dump, verificando si hay cosas en la memtable
+[INFO] 07:53:47:261 Proceso Lissandra File System/(23536:23547): La memtable esta vacia
+[INFO] 07:54:04:90 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:54:04:92 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:54:04:92 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:54:04:102 Proceso Lissandra File System/(23536:23638): [CLIENTE] El cliente se desconectó
+[INFO] 07:54:04:103 Proceso Lissandra File System/(23536:23638): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:54:04:104 Proceso Lissandra File System/(23536:23638): [CLIENTE] Finalizando el hilo
+[INFO] 07:54:06:765 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:54:06:765 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:54:06:766 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:54:06:772 Proceso Lissandra File System/(23536:23641): [CLIENTE] El cliente se desconectó
+[INFO] 07:54:06:773 Proceso Lissandra File System/(23536:23641): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:54:06:773 Proceso Lissandra File System/(23536:23641): [CLIENTE] Finalizando el hilo
+[INFO] 07:54:07:262 Proceso Lissandra File System/(23536:23547): Es tiempo de dump, verificando si hay cosas en la memtable
+[INFO] 07:54:07:262 Proceso Lissandra File System/(23536:23547): La memtable esta vacia
+[INFO] 07:54:27:263 Proceso Lissandra File System/(23536:23547): Es tiempo de dump, verificando si hay cosas en la memtable
+[INFO] 07:54:27:264 Proceso Lissandra File System/(23536:23547): La memtable esta vacia
+[INFO] 07:54:28:568 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:54:28:568 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:54:28:569 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:54:28:575 Proceso Lissandra File System/(23536:23672): [CLIENTE] El cliente se desconectó
+[INFO] 07:54:28:575 Proceso Lissandra File System/(23536:23672): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:54:28:576 Proceso Lissandra File System/(23536:23672): [CLIENTE] Finalizando el hilo
+[INFO] 07:54:29:182 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:54:29:183 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:54:29:184 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:54:29:191 Proceso Lissandra File System/(23536:23673): [CLIENTE] El cliente se desconectó
+[INFO] 07:54:29:192 Proceso Lissandra File System/(23536:23673): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:54:29:192 Proceso Lissandra File System/(23536:23673): [CLIENTE] Finalizando el hilo
+[INFO] 07:54:29:805 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:54:29:806 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:54:29:811 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:54:29:818 Proceso Lissandra File System/(23536:23674): [CLIENTE] El cliente se desconectó
+[INFO] 07:54:29:818 Proceso Lissandra File System/(23536:23674): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:54:29:834 Proceso Lissandra File System/(23536:23674): [CLIENTE] Finalizando el hilo
+[INFO] 07:54:34:144 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:54:34:144 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:54:34:145 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:54:34:152 Proceso Lissandra File System/(23536:23675): [CLIENTE] El cliente se desconectó
+[INFO] 07:54:34:152 Proceso Lissandra File System/(23536:23675): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:54:34:153 Proceso Lissandra File System/(23536:23675): [CLIENTE] Finalizando el hilo
+[INFO] 07:54:36:808 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:54:36:809 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:54:36:809 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:54:36:814 Proceso Lissandra File System/(23536:23686): [CLIENTE] El cliente se desconectó
+[INFO] 07:54:36:815 Proceso Lissandra File System/(23536:23686): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:54:36:816 Proceso Lissandra File System/(23536:23686): [CLIENTE] Finalizando el hilo
+[INFO] 07:54:47:265 Proceso Lissandra File System/(23536:23547): Es tiempo de dump, verificando si hay cosas en la memtable
+[INFO] 07:54:47:265 Proceso Lissandra File System/(23536:23547): La memtable esta vacia
+[INFO] 07:55:04:183 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:55:04:184 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:55:04:184 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:55:04:187 Proceso Lissandra File System/(23536:23699): [CLIENTE] El cliente se desconectó
+[INFO] 07:55:04:187 Proceso Lissandra File System/(23536:23699): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:55:04:188 Proceso Lissandra File System/(23536:23699): [CLIENTE] Finalizando el hilo
+[INFO] 07:55:06:850 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:55:06:857 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:55:06:857 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:55:06:861 Proceso Lissandra File System/(23536:23701): [CLIENTE] El cliente se desconectó
+[INFO] 07:55:06:861 Proceso Lissandra File System/(23536:23701): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:55:06:889 Proceso Lissandra File System/(23536:23701): [CLIENTE] Finalizando el hilo
+[INFO] 07:55:07:269 Proceso Lissandra File System/(23536:23547): Es tiempo de dump, verificando si hay cosas en la memtable
+[INFO] 07:55:07:269 Proceso Lissandra File System/(23536:23547): La memtable esta vacia
+[INFO] 07:55:19:356 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:55:19:357 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:55:19:357 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:55:19:375 Proceso Lissandra File System/(23536:23703): [CLIENTE] El cliente se desconectó
+[INFO] 07:55:19:382 Proceso Lissandra File System/(23536:23703): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:55:19:409 Proceso Lissandra File System/(23536:23703): [CLIENTE] Finalizando el hilo
+[INFO] 07:55:27:271 Proceso Lissandra File System/(23536:23547): Es tiempo de dump, verificando si hay cosas en la memtable
+[INFO] 07:55:27:272 Proceso Lissandra File System/(23536:23547): La memtable esta vacia
+[INFO] 07:55:34:218 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:55:34:220 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:55:34:220 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:55:34:232 Proceso Lissandra File System/(23536:23735): [CLIENTE] El cliente se desconectó
+[INFO] 07:55:34:232 Proceso Lissandra File System/(23536:23735): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:55:34:233 Proceso Lissandra File System/(23536:23735): [CLIENTE] Finalizando el hilo
+[INFO] 07:55:36:929 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:55:36:976 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:55:36:977 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:55:36:980 Proceso Lissandra File System/(23536:23736): [CLIENTE] El cliente se desconectó
+[INFO] 07:55:36:980 Proceso Lissandra File System/(23536:23736): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:55:36:980 Proceso Lissandra File System/(23536:23736): [CLIENTE] Finalizando el hilo
+[INFO] 07:55:38:623 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:55:38:624 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:55:38:624 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:55:38:631 Proceso Lissandra File System/(23536:23737): [CLIENTE] El cliente se desconectó
+[INFO] 07:55:38:632 Proceso Lissandra File System/(23536:23737): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:55:38:633 Proceso Lissandra File System/(23536:23737): [CLIENTE] Finalizando el hilo
+[INFO] 07:55:39:816 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:55:39:818 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:55:39:818 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:55:39:822 Proceso Lissandra File System/(23536:23738): [CLIENTE] El cliente se desconectó
+[INFO] 07:55:39:822 Proceso Lissandra File System/(23536:23738): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:55:39:822 Proceso Lissandra File System/(23536:23738): [CLIENTE] Finalizando el hilo
+[INFO] 07:55:47:280 Proceso Lissandra File System/(23536:23547): Es tiempo de dump, verificando si hay cosas en la memtable
+[INFO] 07:55:47:280 Proceso Lissandra File System/(23536:23547): La memtable esta vacia
+[INFO] 07:56:04:265 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:56:04:266 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:56:04:352 Proceso Lissandra File System/(23536:23753): [CLIENTE] El cliente se desconectó
+[INFO] 07:56:04:352 Proceso Lissandra File System/(23536:23753): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:56:04:352 Proceso Lissandra File System/(23536:23753): [CLIENTE] Finalizando el hilo
+[INFO] 07:56:04:364 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:56:07:184 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:56:07:185 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:56:07:185 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:56:07:199 Proceso Lissandra File System/(23536:23764): [CLIENTE] El cliente se desconectó
+[INFO] 07:56:07:199 Proceso Lissandra File System/(23536:23764): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:56:07:200 Proceso Lissandra File System/(23536:23764): [CLIENTE] Finalizando el hilo
+[INFO] 07:56:07:282 Proceso Lissandra File System/(23536:23547): Es tiempo de dump, verificando si hay cosas en la memtable
+[INFO] 07:56:07:283 Proceso Lissandra File System/(23536:23547): La memtable esta vacia
+[INFO] 07:56:09:454 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:56:09:455 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:56:09:455 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:56:09:460 Proceso Lissandra File System/(23536:23768): [CLIENTE] El cliente se desconectó
+[INFO] 07:56:09:460 Proceso Lissandra File System/(23536:23768): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:56:09:461 Proceso Lissandra File System/(23536:23768): [CLIENTE] Finalizando el hilo
+[INFO] 07:56:27:283 Proceso Lissandra File System/(23536:23547): Es tiempo de dump, verificando si hay cosas en la memtable
+[INFO] 07:56:27:284 Proceso Lissandra File System/(23536:23547): La memtable esta vacia
+[INFO] 07:56:34:326 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:56:34:328 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:56:34:328 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:56:34:335 Proceso Lissandra File System/(23536:23798): [CLIENTE] El cliente se desconectó
+[INFO] 07:56:34:336 Proceso Lissandra File System/(23536:23798): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:56:34:337 Proceso Lissandra File System/(23536:23798): [CLIENTE] Finalizando el hilo
+[INFO] 07:56:37:226 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:56:37:226 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:56:37:227 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:56:37:231 Proceso Lissandra File System/(23536:23799): [CLIENTE] El cliente se desconectó
+[INFO] 07:56:37:231 Proceso Lissandra File System/(23536:23799): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:56:37:232 Proceso Lissandra File System/(23536:23799): [CLIENTE] Finalizando el hilo
+[INFO] 07:56:47:286 Proceso Lissandra File System/(23536:23547): Es tiempo de dump, verificando si hay cosas en la memtable
+[INFO] 07:56:47:286 Proceso Lissandra File System/(23536:23547): La memtable esta vacia
+[INFO] 07:56:49:854 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:56:49:860 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:56:49:860 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:56:49:894 Proceso Lissandra File System/(23536:23800): [CLIENTE] El cliente se desconectó
+[INFO] 07:56:49:896 Proceso Lissandra File System/(23536:23800): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:56:49:905 Proceso Lissandra File System/(23536:23800): [CLIENTE] Finalizando el hilo
+[INFO] 07:56:59:490 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:56:59:490 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:56:59:492 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:56:59:496 Proceso Lissandra File System/(23536:23802): [CLIENTE] El cliente se desconectó
+[INFO] 07:56:59:496 Proceso Lissandra File System/(23536:23802): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:56:59:497 Proceso Lissandra File System/(23536:23802): [CLIENTE] Finalizando el hilo
+[INFO] 07:57:04:368 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:57:04:368 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:57:04:369 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:57:04:375 Proceso Lissandra File System/(23536:23803): [CLIENTE] El cliente se desconectó
+[INFO] 07:57:04:375 Proceso Lissandra File System/(23536:23803): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:57:04:376 Proceso Lissandra File System/(23536:23803): [CLIENTE] Finalizando el hilo
+[INFO] 07:57:07:281 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:57:07:281 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:57:07:282 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:57:07:292 Proceso Lissandra File System/(23536:23547): Es tiempo de dump, verificando si hay cosas en la memtable
+[INFO] 07:57:07:293 Proceso Lissandra File System/(23536:23547): La memtable esta vacia
+[INFO] 07:57:07:293 Proceso Lissandra File System/(23536:23816): [CLIENTE] El cliente se desconectó
+[INFO] 07:57:07:293 Proceso Lissandra File System/(23536:23816): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:57:07:294 Proceso Lissandra File System/(23536:23816): [CLIENTE] Finalizando el hilo
+[INFO] 07:57:27:68 Proceso Lissandra File System/(23536:23547): Es tiempo de dump, verificando si hay cosas en la memtable
+[INFO] 07:57:27:69 Proceso Lissandra File System/(23536:23547): La memtable esta vacia
+[INFO] 07:57:34:192 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:57:34:193 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:57:34:237 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:57:34:240 Proceso Lissandra File System/(23536:24011): [CLIENTE] El cliente se desconectó
+[INFO] 07:57:34:240 Proceso Lissandra File System/(23536:24011): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:57:34:241 Proceso Lissandra File System/(23536:24011): [CLIENTE] Finalizando el hilo
+[INFO] 07:57:37:97 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:57:37:99 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:57:37:99 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:57:37:103 Proceso Lissandra File System/(23536:24012): [CLIENTE] El cliente se desconectó
+[INFO] 07:57:37:107 Proceso Lissandra File System/(23536:24012): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:57:37:108 Proceso Lissandra File System/(23536:24012): [CLIENTE] Finalizando el hilo
+[INFO] 07:57:47:69 Proceso Lissandra File System/(23536:23547): Es tiempo de dump, verificando si hay cosas en la memtable
+[INFO] 07:57:47:70 Proceso Lissandra File System/(23536:23547): La memtable esta vacia
+[INFO] 07:57:49:290 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:57:49:291 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:57:49:291 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:57:49:295 Proceso Lissandra File System/(23536:24017): [CLIENTE] El cliente se desconectó
+[INFO] 07:57:49:295 Proceso Lissandra File System/(23536:24017): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:57:49:296 Proceso Lissandra File System/(23536:24017): [CLIENTE] Finalizando el hilo
+[INFO] 07:57:59:681 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:57:59:682 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:57:59:682 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:57:59:688 Proceso Lissandra File System/(23536:24018): [CLIENTE] El cliente se desconectó
+[INFO] 07:57:59:688 Proceso Lissandra File System/(23536:24018): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:57:59:688 Proceso Lissandra File System/(23536:24018): [CLIENTE] Finalizando el hilo
+[INFO] 07:58:04:260 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:58:04:261 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:58:04:261 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:58:04:267 Proceso Lissandra File System/(23536:24020): [CLIENTE] El cliente se desconectó
+[INFO] 07:58:04:267 Proceso Lissandra File System/(23536:24020): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:58:04:268 Proceso Lissandra File System/(23536:24020): [CLIENTE] Finalizando el hilo
+[INFO] 07:58:07:72 Proceso Lissandra File System/(23536:23547): Es tiempo de dump, verificando si hay cosas en la memtable
+[INFO] 07:58:07:73 Proceso Lissandra File System/(23536:23547): La memtable esta vacia
+[INFO] 07:58:07:130 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:58:07:131 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:58:07:131 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:58:07:148 Proceso Lissandra File System/(23536:24021): [CLIENTE] El cliente se desconectó
+[INFO] 07:58:07:148 Proceso Lissandra File System/(23536:24021): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:58:07:149 Proceso Lissandra File System/(23536:24021): [CLIENTE] Finalizando el hilo
+[INFO] 07:58:27:75 Proceso Lissandra File System/(23536:23547): Es tiempo de dump, verificando si hay cosas en la memtable
+[INFO] 07:58:27:77 Proceso Lissandra File System/(23536:23547): La memtable esta vacia
+[INFO] 07:58:34:301 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:58:34:301 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:58:34:302 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:58:34:306 Proceso Lissandra File System/(23536:24046): [CLIENTE] El cliente se desconectó
+[INFO] 07:58:34:306 Proceso Lissandra File System/(23536:24046): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:58:34:307 Proceso Lissandra File System/(23536:24046): [CLIENTE] Finalizando el hilo
+[INFO] 07:58:37:174 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:58:37:174 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:58:37:175 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:58:37:178 Proceso Lissandra File System/(23536:24050): [CLIENTE] El cliente se desconectó
+[INFO] 07:58:37:178 Proceso Lissandra File System/(23536:24050): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:58:37:181 Proceso Lissandra File System/(23536:24050): [CLIENTE] Finalizando el hilo
+[INFO] 07:58:39:378 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Cliente intentando conectarse
+[INFO] 07:58:39:379 Proceso Lissandra File System/(23536:23546): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:58:39:379 Proceso Lissandra File System/(23536:23546): [SERVIDOR] Esperando recibir un cliente
+[INFO] 07:58:39:382 Proceso Lissandra File System/(23536:24051): [CLIENTE] El cliente se desconectó
+[INFO] 07:58:39:382 Proceso Lissandra File System/(23536:24051): [CLIENTE] Hay 0 clientes activos
+[INFO] 07:58:39:383 Proceso Lissandra File System/(23536:24051): [CLIENTE] Finalizando el hilo
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

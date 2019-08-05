@@ -1,0 +1,105 @@
+[INFO] 07:53:15:944 Proceso Memoria/(23548:23548):  ========== Iniciación de Pool de Memoria ========== 
+[INFO] 07:53:16:71 Proceso Memoria/(23548:23548): [LOGYCONFIG] Logger de seguimiento de tablas creado en ../Log/log_TABLAS_MEMORIA.txt
+[INFO] 07:53:16:73 Proceso Memoria/(23548:23548): [CONFIGURANDO MODULO] RESERVAR MEMORIA.
+[INFO] 07:53:16:74 Proceso Memoria/(23548:23548): [CONFIGURANDO MODULO] BUSCANDO CONFIGURACION.
+[INFO] 07:53:16:218 Proceso Memoria/(23548:23548): [CONFIGURANDO MODULO] LEYENDO CONFIGURACION...
+[INFO] 07:53:16:263 Proceso Memoria/(23548:23548): PUERTO PARA MODULO MEMORIA: 8001
+[INFO] 07:53:16:380 Proceso Memoria/(23548:23548): [CONFIGURANDO MODULO] IP DE ESCUCHA: 127.0.0.1
+[INFO] 07:53:16:382 Proceso Memoria/(23548:23548): [CONFIGURANDO MODULO] IP DE FILESYSTEM: 127.0.0.1
+[INFO] 07:53:16:397 Proceso Memoria/(23548:23548): [CONFIGURANDO MODULO] PUERTO DE FILESYSTEM: 5003
+[INFO] 07:53:16:453 Proceso Memoria/(23548:23548): [CONFIGURANDO MODULO] IPs DE SEEDS LEIDOS
+[INFO] 07:53:16:469 Proceso Memoria/(23548:23548): [CONFIGURANDO MODULO] PUERTOS PARA SEEDS LEIDOS
+[INFO] 07:53:16:471 Proceso Memoria/(23548:23548): [CONFIGURANDO MODULO] RETARDO MEMORIA: 0
+[INFO] 07:53:16:472 Proceso Memoria/(23548:23548): [CONFIGURANDO MODULO] RETARDO DEL FS: 0
+[INFO] 07:53:16:473 Proceso Memoria/(23548:23548): [CONFIGURANDO MODULO] TAMAÑO DE MEMORIA: 4096
+[INFO] 07:53:16:474 Proceso Memoria/(23548:23548): [CONFIGURANDO MODULO] RETARDO DEL JOURNALING: 70000
+[INFO] 07:53:16:476 Proceso Memoria/(23548:23548): [CONFIGURANDO MODULO] RETARDO DE GOSSIPING: 30000
+[INFO] 07:53:16:477 Proceso Memoria/(23548:23548): [CONFIGURANDO MODULO] NUMERO DE MEMORIA: 1
+[INFO] 07:53:16:497 Proceso Memoria/(23548:23548): [LOGYCONFIG] *** CONFIGURACIÓN DE MEMORIA CARGADA. *** 
+[INFO] 07:53:16:690 Proceso Memoria/(23548:23548): [CONECTANDO A LFS] Recibido el máximo tamaño para los valores. Es 60
+[INFO] 07:53:16:692 Proceso Memoria/(23548:23548): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 07:53:16:734 Proceso Memoria/(23548:23548): [MAIN] Iniciando con tamaño máximo de valor 60
+[INFO] 07:53:16:750 Proceso Memoria/(23548:23548): [ARMAR MEMORIA] Alocando el bloque de memoria de tamaño 4096
+[INFO] 07:53:16:794 Proceso Memoria/(23548:23548): [ARMAR MEMORIA] Se ha creado la memoria contigua
+[INFO] 07:53:16:795 Proceso Memoria/(23548:23548): [ARMAR MEMORIA] Tamaño de pagina: 76
+[INFO] 07:53:16:802 Proceso Memoria/(23548:23548): [ARMAR MEMORIA] Cantidad maxima de paginas en memoria: 53
+[INFO] 07:53:16:832 Proceso Memoria/(23548:23548): [ARMAR MEMORIA] BITMAP creado con tamaño de 53
+[INFO] 07:53:16:834 Proceso Memoria/(23548:23548): [ARMAR MEMORIA] Memoria inicializada de forma correcta
+[INFO] 07:53:16:853 Proceso Memoria/(23548:23548): [SEMAFOROS] Iniciando semaforos y mutexs
+[INFO] 07:53:16:926 Proceso Memoria/(23548:23548): [LEVANTANDO SERVIDOR] Me voy a intentar conectar en ip: <127.0.0.1> puerto: <8001>
+[INFO] 07:53:16:951 Proceso Memoria/(23548:23548): [LEVANTANDO SERVIDOR] Servidor conectado
+[INFO] 07:53:17:36 Proceso Memoria/(23548:23548): [INICIALIZANDO GOSSIPING MEMORIA] El gossiping se hará cada 30000 milisegundos
+[INFO] 07:53:17:68 Proceso Memoria/(23548:23548): [INICIALIZANDO GOSSIPING MEMORIA] Todas las memorias agregadas
+[INFO] 07:53:17:70 Proceso Memoria/(23548:23548): [INICIANDO HILO GOSSIPING] Voy a crear hilo
+[INFO] 07:53:17:511 Proceso Memoria/(23548:23559): [HILO GOSSIPING] Entrando a hilo
+[INFO] 07:53:17:516 Proceso Memoria/(23548:23548): [INICIANDO HILO GOSSIPING] Hilo creado
+[INFO] 07:53:17:684 Proceso Memoria/(23548:23559): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 07:53:17:892 Proceso Memoria/(23548:23559): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 07:53:17:1 Proceso Memoria/(23548:23559): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 07:53:17:689 Proceso Memoria/(23548:23562): [SERVIDOR] Entrando a hilo de escucha del servidor de la memoria
+[INFO] 07:53:18:290 Proceso Memoria/(23548:23559): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 07:53:18:302 Proceso Memoria/(23548:23559): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 07:53:18:315 Proceso Memoria/(23548:23564): [CONSOLA] Entrando a hilo consola
+[INFO] 07:53:18:347 Proceso Memoria/(23548:23559): No hay memorias caidas
+[INFO] 07:53:18:388 Proceso Memoria/(23548:23559): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 07:53:18:521 Proceso Memoria/(23548:23559): [HILO GOSSIPING] La próxima ejecución será en 29770 milisegundos
+[INFO] 07:53:18:549 Proceso Memoria/(23548:23565): [JOURNAL AUTOMATICO] PROXIMO JOURNAL EN 70000 milisegundos
+[INFO] 07:53:33:666 Proceso Memoria/(23548:23612): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 07:53:33:682 Proceso Memoria/(23548:23562): [CLIENTE] Dando de alta cliente en socket 8
+[INFO] 07:53:33:683 Proceso Memoria/(23548:23562): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:53:33:818 Proceso Memoria/(23548:23612): [CLIENTE] El cliente hizo un pedido de gossiping
+[INFO] 07:53:33:944 Proceso Memoria/(23548:23612): [INCORPORAR SEEDS] Nueva memoria conocida. 2-127.0.0.1-8002
+[INFO] 07:53:34:432 Proceso Memoria/(23548:23612): [CLIENTE] La resupuesta fue enviada con éxito al cliente
+[INFO] 07:53:48:295 Proceso Memoria/(23548:23559): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 07:53:48:297 Proceso Memoria/(23548:23559): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 07:53:48:298 Proceso Memoria/(23548:23559): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 07:53:48:302 Proceso Memoria/(23548:23559): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8002>
+[INFO] 07:53:48:343 Proceso Memoria/(23548:23559): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 07:54:04:757 Proceso Memoria/(23548:23562): [CLIENTE] Dando de alta cliente en socket 9
+[INFO] 07:54:04:759 Proceso Memoria/(23548:23562): [CLIENTE] Hay 2 clientes activos
+[INFO] 07:54:04:761 Proceso Memoria/(23548:23639): [CLIENTE] Entrando a hilo de atención a un cliente
+[WARNING] 07:54:28:553 Proceso Memoria/(23548:23565): [JOURNAL] ENTRANDO
+[INFO] 07:54:28:557 Proceso Memoria/(23548:23565): [JOURNAL] PROCEDO A ENVIAR LA INFORMACION A LISANDRA
+[INFO] 07:54:28:557 Proceso Memoria/(23548:23565): [JOURNAL] ENVIO EL MENSAJE A LISANDRA
+[INFO] 07:54:28:559 Proceso Memoria/(23548:23565): [ENVIANDO DATOS A LFS] Voy a crear conexión con LFS
+[INFO] 07:54:28:570 Proceso Memoria/(23548:23565): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 07:54:28:573 Proceso Memoria/(23548:23565): [ENVIANDO DATOS A LFS] Voy a enviarles los datos modificados
+[ERROR] 07:54:28:580 Proceso Memoria/(23548:23565): [JOURNAL] No se pudo enviar ningun registro. No se hace el journal
+[INFO] 07:54:28:583 Proceso Memoria/(23548:23565): [JOURNAL] JOURNAL HECHO, LISANDRA HA RECIBIDO BIEN 0 REGISTROS, LIMPIO TODO
+[INFO] 07:54:28:585 Proceso Memoria/(23548:23565): [LIBERANDO MEMORIA] BORRO SEGMENTOS
+[INFO] 07:54:28:591 Proceso Memoria/(23548:23565): [LIBERANDO SEGMENTOS] Entrando, comienza la limpieza total
+[INFO] 07:54:28:592 Proceso Memoria/(23548:23565): [LIBERANDO SEGMENTOS] TODOS LOS SEGMENTOS FUERON LIBERADOS
+[INFO] 07:54:28:597 Proceso Memoria/(23548:23565): [LIBERANDO MEMORIA] MEMORIA LIBERADA
+[INFO] 07:54:28:601 Proceso Memoria/(23548:23565): [LOGGEANDO ESTADO ACTUAL MEMORIA] No se ha inicializado la tabla de segmentos
+[INFO] 07:54:28:602 Proceso Memoria/(23548:23565): [JOURNAL AUTOMATICO] 0 registros recibidos ok por LFS
+[INFO] 07:54:28:604 Proceso Memoria/(23548:23565): [JOURNAL AUTOMATICO] PROXIMO JOURNAL EN 70000 milisegundos
+[WARNING] 07:55:38:605 Proceso Memoria/(23548:23565): [JOURNAL] ENTRANDO
+[INFO] 07:55:38:607 Proceso Memoria/(23548:23565): [JOURNAL] PROCEDO A ENVIAR LA INFORMACION A LISANDRA
+[INFO] 07:55:38:607 Proceso Memoria/(23548:23565): [JOURNAL] ENVIO EL MENSAJE A LISANDRA
+[INFO] 07:55:38:608 Proceso Memoria/(23548:23565): [ENVIANDO DATOS A LFS] Voy a crear conexión con LFS
+[INFO] 07:55:38:625 Proceso Memoria/(23548:23565): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 07:55:38:626 Proceso Memoria/(23548:23565): [ENVIANDO DATOS A LFS] Voy a enviarles los datos modificados
+[ERROR] 07:55:38:628 Proceso Memoria/(23548:23565): [JOURNAL] No se pudo enviar ningun registro. No se hace el journal
+[INFO] 07:55:38:628 Proceso Memoria/(23548:23565): [JOURNAL] JOURNAL HECHO, LISANDRA HA RECIBIDO BIEN 0 REGISTROS, LIMPIO TODO
+[INFO] 07:55:38:629 Proceso Memoria/(23548:23565): [LIBERANDO MEMORIA] BORRO SEGMENTOS
+[INFO] 07:55:38:630 Proceso Memoria/(23548:23565): [LIBERANDO SEGMENTOS] Entrando, comienza la limpieza total
+[INFO] 07:55:38:631 Proceso Memoria/(23548:23565): [LIBERANDO SEGMENTOS] TODOS LOS SEGMENTOS FUERON LIBERADOS
+[INFO] 07:55:38:635 Proceso Memoria/(23548:23565): [LIBERANDO MEMORIA] MEMORIA LIBERADA
+[INFO] 07:55:38:640 Proceso Memoria/(23548:23565): [LOGGEANDO ESTADO ACTUAL MEMORIA] No se ha inicializado la tabla de segmentos
+[INFO] 07:55:38:642 Proceso Memoria/(23548:23565): [JOURNAL AUTOMATICO] 0 registros recibidos ok por LFS
+[INFO] 07:55:38:642 Proceso Memoria/(23548:23565): [JOURNAL AUTOMATICO] PROXIMO JOURNAL EN 70000 milisegundos
+[INFO] 07:56:17:861 Proceso Memoria/(23548:23564): [CONSOLA] Request: SALIR
+[INFO] 07:56:17:912 Proceso Memoria/(23548:23548): [Liberando] Liberando memoria Gossiping
+[INFO] 07:56:17:934 Proceso Memoria/(23548:23548): [Liberando] Cerrando clientes
+[INFO] 07:56:17:935 Proceso Memoria/(23548:23548): [CLIENTE] Cerrando sockets de clientes activos. Hay 2
+[INFO] 07:56:17:936 Proceso Memoria/(23548:23548): [CLIENTE] Cerrando socket 8
+[INFO] 07:56:17:938 Proceso Memoria/(23548:23548): [CLIENTE] Cerrando socket 9
+[INFO] 07:56:18:4 Proceso Memoria/(23548:23548): [CLIENTE] Todos los sockets de clientes fueron cerrados
+[INFO] 07:56:18:44 Proceso Memoria/(23548:23548): [LIBERAR] Por liberar Segmentos y sus tablas de paginas
+[INFO] 07:56:18:46 Proceso Memoria/(23548:23548): [BORRANDO SEGMENTO] Se borraran todos los segmentos
+[INFO] 07:56:18:51 Proceso Memoria/(23548:23548): [LIBERAR] memoria Liberada
+[INFO] 07:56:18:52 Proceso Memoria/(23548:23548): [LIBERAR] BITMAP destruido
+[INFO] 07:56:18:53 Proceso Memoria/(23548:23548): [LIBERANDO CONFIG]
+[INFO] 07:56:18:161 Proceso Memoria/(23548:23548): [LIBERAR] Struct configuracion Liberada
+[INFO] 07:56:18:162 Proceso Memoria/(23548:23548): [LIBERAR] Liberando log_memoria
+[INFO] 07:56:18:166 Proceso Memoria/(23548:23548): >>>>>>>>>>>>>>>FIN DE PROCESO MEMORIA<<<<<<<<<<<<<<<

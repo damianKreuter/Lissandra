@@ -1,0 +1,120 @@
+[INFO] 07:53:19:467 Proceso Memoria/(23566:23566):  ========== Iniciación de Pool de Memoria ========== 
+[INFO] 07:53:19:477 Proceso Memoria/(23566:23566): [LOGYCONFIG] Logger de seguimiento de tablas creado en ../Log/log_TABLAS_MEMORIA.txt
+[INFO] 07:53:19:509 Proceso Memoria/(23566:23566): [CONFIGURANDO MODULO] RESERVAR MEMORIA.
+[INFO] 07:53:19:509 Proceso Memoria/(23566:23566): [CONFIGURANDO MODULO] BUSCANDO CONFIGURACION.
+[INFO] 07:53:19:510 Proceso Memoria/(23566:23566): [CONFIGURANDO MODULO] LEYENDO CONFIGURACION...
+[INFO] 07:53:19:510 Proceso Memoria/(23566:23566): PUERTO PARA MODULO MEMORIA: 8003
+[INFO] 07:53:19:510 Proceso Memoria/(23566:23566): [CONFIGURANDO MODULO] IP DE ESCUCHA: 127.0.0.1
+[INFO] 07:53:19:510 Proceso Memoria/(23566:23566): [CONFIGURANDO MODULO] IP DE FILESYSTEM: 127.0.0.1
+[INFO] 07:53:19:510 Proceso Memoria/(23566:23566): [CONFIGURANDO MODULO] PUERTO DE FILESYSTEM: 5003
+[INFO] 07:53:19:515 Proceso Memoria/(23566:23566): [CONFIGURANDO MODULO] IPs DE SEEDS LEIDOS
+[INFO] 07:53:19:515 Proceso Memoria/(23566:23566): [CONFIGURANDO MODULO] PUERTOS PARA SEEDS LEIDOS
+[INFO] 07:53:19:515 Proceso Memoria/(23566:23566): [CONFIGURANDO MODULO] RETARDO MEMORIA: 0
+[INFO] 07:53:19:515 Proceso Memoria/(23566:23566): [CONFIGURANDO MODULO] RETARDO DEL FS: 0
+[INFO] 07:53:19:516 Proceso Memoria/(23566:23566): [CONFIGURANDO MODULO] TAMAÑO DE MEMORIA: 256
+[INFO] 07:53:19:516 Proceso Memoria/(23566:23566): [CONFIGURANDO MODULO] RETARDO DEL JOURNALING: 70000
+[INFO] 07:53:19:516 Proceso Memoria/(23566:23566): [CONFIGURANDO MODULO] RETARDO DE GOSSIPING: 30000
+[INFO] 07:53:19:516 Proceso Memoria/(23566:23566): [CONFIGURANDO MODULO] NUMERO DE MEMORIA: 3
+[INFO] 07:53:19:533 Proceso Memoria/(23566:23566): [LOGYCONFIG] *** CONFIGURACIÓN DE MEMORIA CARGADA. *** 
+[INFO] 07:53:19:599 Proceso Memoria/(23566:23566): [CONECTANDO A LFS] Recibido el máximo tamaño para los valores. Es 60
+[INFO] 07:53:19:599 Proceso Memoria/(23566:23566): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 07:53:19:642 Proceso Memoria/(23566:23566): [MAIN] Iniciando con tamaño máximo de valor 60
+[INFO] 07:53:19:642 Proceso Memoria/(23566:23566): [ARMAR MEMORIA] Alocando el bloque de memoria de tamaño 256
+[INFO] 07:53:19:642 Proceso Memoria/(23566:23566): [ARMAR MEMORIA] Se ha creado la memoria contigua
+[INFO] 07:53:19:643 Proceso Memoria/(23566:23566): [ARMAR MEMORIA] Tamaño de pagina: 76
+[INFO] 07:53:19:669 Proceso Memoria/(23566:23566): [ARMAR MEMORIA] Cantidad maxima de paginas en memoria: 3
+[INFO] 07:53:19:670 Proceso Memoria/(23566:23566): [ARMAR MEMORIA] BITMAP creado con tamaño de 3
+[INFO] 07:53:19:670 Proceso Memoria/(23566:23566): [ARMAR MEMORIA] Memoria inicializada de forma correcta
+[INFO] 07:53:19:671 Proceso Memoria/(23566:23566): [SEMAFOROS] Iniciando semaforos y mutexs
+[INFO] 07:53:19:672 Proceso Memoria/(23566:23566): [LEVANTANDO SERVIDOR] Me voy a intentar conectar en ip: <127.0.0.1> puerto: <8003>
+[INFO] 07:53:19:672 Proceso Memoria/(23566:23566): [LEVANTANDO SERVIDOR] Servidor conectado
+[INFO] 07:53:19:673 Proceso Memoria/(23566:23566): [INICIALIZANDO GOSSIPING MEMORIA] El gossiping se hará cada 30000 milisegundos
+[INFO] 07:53:19:674 Proceso Memoria/(23566:23566): [INICIALIZANDO GOSSIPING MEMORIA] Agregando seed 127.0.0.1 8004
+[INFO] 07:53:19:674 Proceso Memoria/(23566:23566): [INICIALIZANDO GOSSIPING MEMORIA] Agregando seed 127.0.0.1 8002
+[INFO] 07:53:19:674 Proceso Memoria/(23566:23566): [INICIALIZANDO GOSSIPING MEMORIA] Todas las memorias agregadas
+[INFO] 07:53:19:674 Proceso Memoria/(23566:23566): [INICIANDO HILO GOSSIPING] Voy a crear hilo
+[INFO] 07:53:19:674 Proceso Memoria/(23566:23566): [INICIANDO HILO GOSSIPING] Hilo creado
+[INFO] 07:53:19:693 Proceso Memoria/(23566:23568): [HILO GOSSIPING] Entrando a hilo
+[INFO] 07:53:19:693 Proceso Memoria/(23566:23568): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 07:53:19:693 Proceso Memoria/(23566:23568): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 07:53:19:693 Proceso Memoria/(23566:23568): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 07:53:19:694 Proceso Memoria/(23566:23568): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8004>
+[INFO] 07:53:19:702 Proceso Memoria/(23566:23569): [SERVIDOR] Entrando a hilo de escucha del servidor de la memoria
+[INFO] 07:53:19:736 Proceso Memoria/(23566:23568): [CORRIENDO GOSSIPING] La memoria <-1>-<127.0.0.1>-<8004> está caida
+[INFO] 07:53:19:736 Proceso Memoria/(23566:23568): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8002>
+[INFO] 07:53:19:739 Proceso Memoria/(23566:23568): [CORRIENDO GOSSIPING] La memoria <-1>-<127.0.0.1>-<8002> está caida
+[INFO] 07:53:19:739 Proceso Memoria/(23566:23568): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 07:53:19:739 Proceso Memoria/(23566:23568): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 07:53:19:740 Proceso Memoria/(23566:23568): No hay memorias caidas
+[INFO] 07:53:19:740 Proceso Memoria/(23566:23568): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 07:53:19:740 Proceso Memoria/(23566:23568): [HILO GOSSIPING] La próxima ejecución será en 30000 milisegundos
+[INFO] 07:53:19:740 Proceso Memoria/(23566:23571): [CONSOLA] Entrando a hilo consola
+[INFO] 07:53:19:775 Proceso Memoria/(23566:23572): [JOURNAL AUTOMATICO] PROXIMO JOURNAL EN 70000 milisegundos
+[INFO] 07:53:32:328 Proceso Memoria/(23566:23569): [CLIENTE] Dando de alta cliente en socket 10
+[INFO] 07:53:32:328 Proceso Memoria/(23566:23569): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:53:32:350 Proceso Memoria/(23566:23607): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 07:53:49:741 Proceso Memoria/(23566:23568): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 07:53:49:741 Proceso Memoria/(23566:23568): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 07:53:49:741 Proceso Memoria/(23566:23568): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 07:53:49:741 Proceso Memoria/(23566:23568): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8004>
+[INFO] 07:53:49:782 Proceso Memoria/(23566:23568): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[WARNING] 07:54:29:778 Proceso Memoria/(23566:23572): [JOURNAL] ENTRANDO
+[INFO] 07:54:29:803 Proceso Memoria/(23566:23572): [JOURNAL] PROCEDO A ENVIAR LA INFORMACION A LISANDRA
+[INFO] 07:54:29:803 Proceso Memoria/(23566:23572): [JOURNAL] ENVIO EL MENSAJE A LISANDRA
+[INFO] 07:54:29:804 Proceso Memoria/(23566:23572): [ENVIANDO DATOS A LFS] Voy a crear conexión con LFS
+[INFO] 07:54:29:809 Proceso Memoria/(23566:23572): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 07:54:29:809 Proceso Memoria/(23566:23572): [ENVIANDO DATOS A LFS] Voy a enviarles los datos modificados
+[ERROR] 07:54:29:809 Proceso Memoria/(23566:23572): [JOURNAL] No se pudo enviar ningun registro. No se hace el journal
+[INFO] 07:54:29:809 Proceso Memoria/(23566:23572): [JOURNAL] JOURNAL HECHO, LISANDRA HA RECIBIDO BIEN 0 REGISTROS, LIMPIO TODO
+[INFO] 07:54:29:810 Proceso Memoria/(23566:23572): [LIBERANDO MEMORIA] BORRO SEGMENTOS
+[INFO] 07:54:29:810 Proceso Memoria/(23566:23572): [LIBERANDO SEGMENTOS] Entrando, comienza la limpieza total
+[INFO] 07:54:29:810 Proceso Memoria/(23566:23572): [LIBERANDO SEGMENTOS] TODOS LOS SEGMENTOS FUERON LIBERADOS
+[INFO] 07:54:29:810 Proceso Memoria/(23566:23572): [LIBERANDO MEMORIA] MEMORIA LIBERADA
+[INFO] 07:54:29:810 Proceso Memoria/(23566:23572): [LOGGEANDO ESTADO ACTUAL MEMORIA] No se ha inicializado la tabla de segmentos
+[INFO] 07:54:29:810 Proceso Memoria/(23566:23572): [JOURNAL AUTOMATICO] 0 registros recibidos ok por LFS
+[INFO] 07:54:29:810 Proceso Memoria/(23566:23572): [JOURNAL AUTOMATICO] PROXIMO JOURNAL EN 70000 milisegundos
+[WARNING] 07:55:39:812 Proceso Memoria/(23566:23572): [JOURNAL] ENTRANDO
+[INFO] 07:55:39:812 Proceso Memoria/(23566:23572): [JOURNAL] PROCEDO A ENVIAR LA INFORMACION A LISANDRA
+[INFO] 07:55:39:812 Proceso Memoria/(23566:23572): [JOURNAL] ENVIO EL MENSAJE A LISANDRA
+[INFO] 07:55:39:812 Proceso Memoria/(23566:23572): [ENVIANDO DATOS A LFS] Voy a crear conexión con LFS
+[INFO] 07:55:39:820 Proceso Memoria/(23566:23572): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 07:55:39:820 Proceso Memoria/(23566:23572): [ENVIANDO DATOS A LFS] Voy a enviarles los datos modificados
+[ERROR] 07:55:39:821 Proceso Memoria/(23566:23572): [JOURNAL] No se pudo enviar ningun registro. No se hace el journal
+[INFO] 07:55:39:821 Proceso Memoria/(23566:23572): [JOURNAL] JOURNAL HECHO, LISANDRA HA RECIBIDO BIEN 0 REGISTROS, LIMPIO TODO
+[INFO] 07:55:39:821 Proceso Memoria/(23566:23572): [LIBERANDO MEMORIA] BORRO SEGMENTOS
+[INFO] 07:55:39:821 Proceso Memoria/(23566:23572): [LIBERANDO SEGMENTOS] Entrando, comienza la limpieza total
+[INFO] 07:55:39:821 Proceso Memoria/(23566:23572): [LIBERANDO SEGMENTOS] TODOS LOS SEGMENTOS FUERON LIBERADOS
+[INFO] 07:55:39:821 Proceso Memoria/(23566:23572): [LIBERANDO MEMORIA] MEMORIA LIBERADA
+[INFO] 07:55:39:821 Proceso Memoria/(23566:23572): [LOGGEANDO ESTADO ACTUAL MEMORIA] No se ha inicializado la tabla de segmentos
+[INFO] 07:55:39:821 Proceso Memoria/(23566:23572): [JOURNAL AUTOMATICO] 0 registros recibidos ok por LFS
+[INFO] 07:55:39:821 Proceso Memoria/(23566:23572): [JOURNAL AUTOMATICO] PROXIMO JOURNAL EN 70000 milisegundos
+[WARNING] 07:56:49:843 Proceso Memoria/(23566:23572): [JOURNAL] ENTRANDO
+[INFO] 07:56:49:844 Proceso Memoria/(23566:23572): [JOURNAL] PROCEDO A ENVIAR LA INFORMACION A LISANDRA
+[INFO] 07:56:49:844 Proceso Memoria/(23566:23572): [JOURNAL] ENVIO EL MENSAJE A LISANDRA
+[INFO] 07:56:49:844 Proceso Memoria/(23566:23572): [ENVIANDO DATOS A LFS] Voy a crear conexión con LFS
+[INFO] 07:56:49:861 Proceso Memoria/(23566:23572): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 07:56:49:861 Proceso Memoria/(23566:23572): [ENVIANDO DATOS A LFS] Voy a enviarles los datos modificados
+[ERROR] 07:56:49:900 Proceso Memoria/(23566:23572): [JOURNAL] No se pudo enviar ningun registro. No se hace el journal
+[INFO] 07:56:49:900 Proceso Memoria/(23566:23572): [JOURNAL] JOURNAL HECHO, LISANDRA HA RECIBIDO BIEN 0 REGISTROS, LIMPIO TODO
+[INFO] 07:56:49:900 Proceso Memoria/(23566:23572): [LIBERANDO MEMORIA] BORRO SEGMENTOS
+[INFO] 07:56:49:900 Proceso Memoria/(23566:23572): [LIBERANDO SEGMENTOS] Entrando, comienza la limpieza total
+[INFO] 07:56:49:900 Proceso Memoria/(23566:23572): [LIBERANDO SEGMENTOS] TODOS LOS SEGMENTOS FUERON LIBERADOS
+[INFO] 07:56:49:900 Proceso Memoria/(23566:23572): [LIBERANDO MEMORIA] MEMORIA LIBERADA
+[INFO] 07:56:49:900 Proceso Memoria/(23566:23572): [LOGGEANDO ESTADO ACTUAL MEMORIA] No se ha inicializado la tabla de segmentos
+[INFO] 07:56:49:901 Proceso Memoria/(23566:23572): [JOURNAL AUTOMATICO] 0 registros recibidos ok por LFS
+[INFO] 07:56:49:902 Proceso Memoria/(23566:23572): [JOURNAL AUTOMATICO] PROXIMO JOURNAL EN 70000 milisegundos
+[WARNING] 07:57:59:678 Proceso Memoria/(23566:23572): [JOURNAL] ENTRANDO
+[INFO] 07:57:59:679 Proceso Memoria/(23566:23572): [JOURNAL] PROCEDO A ENVIAR LA INFORMACION A LISANDRA
+[INFO] 07:57:59:679 Proceso Memoria/(23566:23572): [JOURNAL] ENVIO EL MENSAJE A LISANDRA
+[INFO] 07:57:59:679 Proceso Memoria/(23566:23572): [ENVIANDO DATOS A LFS] Voy a crear conexión con LFS
+[INFO] 07:57:59:682 Proceso Memoria/(23566:23572): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 07:57:59:686 Proceso Memoria/(23566:23572): [ENVIANDO DATOS A LFS] Voy a enviarles los datos modificados
+[ERROR] 07:57:59:686 Proceso Memoria/(23566:23572): [JOURNAL] No se pudo enviar ningun registro. No se hace el journal
+[INFO] 07:57:59:687 Proceso Memoria/(23566:23572): [JOURNAL] JOURNAL HECHO, LISANDRA HA RECIBIDO BIEN 0 REGISTROS, LIMPIO TODO
+[INFO] 07:57:59:687 Proceso Memoria/(23566:23572): [LIBERANDO MEMORIA] BORRO SEGMENTOS
+[INFO] 07:57:59:687 Proceso Memoria/(23566:23572): [LIBERANDO SEGMENTOS] Entrando, comienza la limpieza total
+[INFO] 07:57:59:687 Proceso Memoria/(23566:23572): [LIBERANDO SEGMENTOS] TODOS LOS SEGMENTOS FUERON LIBERADOS
+[INFO] 07:57:59:687 Proceso Memoria/(23566:23572): [LIBERANDO MEMORIA] MEMORIA LIBERADA
+[INFO] 07:57:59:687 Proceso Memoria/(23566:23572): [LOGGEANDO ESTADO ACTUAL MEMORIA] No se ha inicializado la tabla de segmentos
+[INFO] 07:57:59:687 Proceso Memoria/(23566:23572): [JOURNAL AUTOMATICO] 0 registros recibidos ok por LFS
+[INFO] 07:57:59:687 Proceso Memoria/(23566:23572): [JOURNAL AUTOMATICO] PROXIMO JOURNAL EN 70000 milisegundos

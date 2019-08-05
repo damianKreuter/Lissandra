@@ -1,0 +1,228 @@
+[INFO] 07:53:35:480 Proceso Memoria/(23604:23604):  ========== Iniciación de Pool de Memoria ========== 
+[INFO] 07:53:36:758 Proceso Memoria/(23604:23604): [LOGYCONFIG] Logger de seguimiento de tablas creado en ../Log/log_TABLAS_MEMORIA.txt
+[INFO] 07:53:36:765 Proceso Memoria/(23604:23604): [CONFIGURANDO MODULO] RESERVAR MEMORIA.
+[INFO] 07:53:36:766 Proceso Memoria/(23604:23604): [CONFIGURANDO MODULO] BUSCANDO CONFIGURACION.
+[INFO] 07:53:36:47 Proceso Memoria/(23604:23604): [CONFIGURANDO MODULO] LEYENDO CONFIGURACION...
+[INFO] 07:53:37:82 Proceso Memoria/(23604:23604): PUERTO PARA MODULO MEMORIA: 8005
+[INFO] 07:53:37:92 Proceso Memoria/(23604:23604): [CONFIGURANDO MODULO] IP DE ESCUCHA: 127.0.0.1
+[INFO] 07:53:37:93 Proceso Memoria/(23604:23604): [CONFIGURANDO MODULO] IP DE FILESYSTEM: 127.0.0.1
+[INFO] 07:53:37:96 Proceso Memoria/(23604:23604): [CONFIGURANDO MODULO] PUERTO DE FILESYSTEM: 5003
+[INFO] 07:53:37:244 Proceso Memoria/(23604:23604): [CONFIGURANDO MODULO] IPs DE SEEDS LEIDOS
+[INFO] 07:53:37:275 Proceso Memoria/(23604:23604): [CONFIGURANDO MODULO] PUERTOS PARA SEEDS LEIDOS
+[INFO] 07:53:37:283 Proceso Memoria/(23604:23604): [CONFIGURANDO MODULO] RETARDO MEMORIA: 0
+[INFO] 07:53:37:284 Proceso Memoria/(23604:23604): [CONFIGURANDO MODULO] RETARDO DEL FS: 0
+[INFO] 07:53:37:336 Proceso Memoria/(23604:23604): [CONFIGURANDO MODULO] TAMAÑO DE MEMORIA: 1024
+[INFO] 07:53:37:337 Proceso Memoria/(23604:23604): [CONFIGURANDO MODULO] RETARDO DEL JOURNALING: 50000
+[INFO] 07:53:37:338 Proceso Memoria/(23604:23604): [CONFIGURANDO MODULO] RETARDO DE GOSSIPING: 30000
+[INFO] 07:53:37:349 Proceso Memoria/(23604:23604): [CONFIGURANDO MODULO] NUMERO DE MEMORIA: 5
+[INFO] 07:53:37:423 Proceso Memoria/(23604:23604): [LOGYCONFIG] *** CONFIGURACIÓN DE MEMORIA CARGADA. *** 
+[INFO] 07:53:37:873 Proceso Memoria/(23604:23604): [CONECTANDO A LFS] Recibido el máximo tamaño para los valores. Es 60
+[INFO] 07:53:37:875 Proceso Memoria/(23604:23604): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 07:53:37:892 Proceso Memoria/(23604:23604): [MAIN] Iniciando con tamaño máximo de valor 60
+[INFO] 07:53:37:913 Proceso Memoria/(23604:23604): [ARMAR MEMORIA] Alocando el bloque de memoria de tamaño 1024
+[INFO] 07:53:37:914 Proceso Memoria/(23604:23604): [ARMAR MEMORIA] Se ha creado la memoria contigua
+[INFO] 07:53:37:916 Proceso Memoria/(23604:23604): [ARMAR MEMORIA] Tamaño de pagina: 76
+[INFO] 07:53:37:921 Proceso Memoria/(23604:23604): [ARMAR MEMORIA] Cantidad maxima de paginas en memoria: 13
+[INFO] 07:53:37:989 Proceso Memoria/(23604:23604): [ARMAR MEMORIA] BITMAP creado con tamaño de 13
+[INFO] 07:53:37:990 Proceso Memoria/(23604:23604): [ARMAR MEMORIA] Memoria inicializada de forma correcta
+[INFO] 07:53:37:994 Proceso Memoria/(23604:23604): [SEMAFOROS] Iniciando semaforos y mutexs
+[INFO] 07:53:38:17 Proceso Memoria/(23604:23604): [LEVANTANDO SERVIDOR] Me voy a intentar conectar en ip: <127.0.0.1> puerto: <8005>
+[INFO] 07:53:38:61 Proceso Memoria/(23604:23604): [LEVANTANDO SERVIDOR] Servidor conectado
+[INFO] 07:53:38:95 Proceso Memoria/(23604:23604): [INICIALIZANDO GOSSIPING MEMORIA] El gossiping se hará cada 30000 milisegundos
+[INFO] 07:53:38:140 Proceso Memoria/(23604:23604): [INICIALIZANDO GOSSIPING MEMORIA] Todas las memorias agregadas
+[INFO] 07:53:38:142 Proceso Memoria/(23604:23604): [INICIANDO HILO GOSSIPING] Voy a crear hilo
+[INFO] 07:53:38:270 Proceso Memoria/(23604:23604): [INICIANDO HILO GOSSIPING] Hilo creado
+[INFO] 07:53:38:292 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Entrando a hilo
+[INFO] 07:53:38:336 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 07:53:38:444 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 07:53:38:482 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 07:53:38:360 Proceso Memoria/(23604:23622): [SERVIDOR] Entrando a hilo de escucha del servidor de la memoria
+[INFO] 07:53:38:538 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 07:53:38:606 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 07:53:38:609 Proceso Memoria/(23604:23621): No hay memorias caidas
+[INFO] 07:53:38:612 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 07:53:38:614 Proceso Memoria/(23604:23621): [HILO GOSSIPING] La próxima ejecución será en 29924 milisegundos
+[INFO] 07:53:38:626 Proceso Memoria/(23604:23624): [CONSOLA] Entrando a hilo consola
+[INFO] 07:53:38:921 Proceso Memoria/(23604:23625): [JOURNAL AUTOMATICO] PROXIMO JOURNAL EN 50000 milisegundos
+[INFO] 07:53:53:114 Proceso Memoria/(23604:23622): [CLIENTE] Dando de alta cliente en socket 8
+[INFO] 07:53:53:115 Proceso Memoria/(23604:23622): [CLIENTE] Hay 1 clientes activos
+[INFO] 07:53:53:128 Proceso Memoria/(23604:23637): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 07:53:53:134 Proceso Memoria/(23604:23637): [CLIENTE] El cliente hizo un pedido de gossiping
+[INFO] 07:54:06:320 Proceso Memoria/(23604:23622): [CLIENTE] Dando de alta cliente en socket 9
+[INFO] 07:54:06:322 Proceso Memoria/(23604:23622): [CLIENTE] Hay 2 clientes activos
+[INFO] 07:54:06:324 Proceso Memoria/(23604:23640): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 07:54:08:560 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 07:54:08:561 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 07:54:08:565 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 07:54:08:585 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 07:54:08:585 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 07:54:08:585 Proceso Memoria/(23604:23621): No hay memorias caidas
+[INFO] 07:54:08:586 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 07:54:08:586 Proceso Memoria/(23604:23621): [HILO GOSSIPING] La próxima ejecución será en 29998 milisegundos
+[WARNING] 07:54:29:53 Proceso Memoria/(23604:23625): [JOURNAL] ENTRANDO
+[INFO] 07:54:29:109 Proceso Memoria/(23604:23625): [JOURNAL] PROCEDO A ENVIAR LA INFORMACION A LISANDRA
+[INFO] 07:54:29:109 Proceso Memoria/(23604:23625): [JOURNAL] ENVIO EL MENSAJE A LISANDRA
+[INFO] 07:54:29:120 Proceso Memoria/(23604:23625): [ENVIANDO DATOS A LFS] Voy a crear conexión con LFS
+[INFO] 07:54:29:185 Proceso Memoria/(23604:23625): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 07:54:29:186 Proceso Memoria/(23604:23625): [ENVIANDO DATOS A LFS] Voy a enviarles los datos modificados
+[ERROR] 07:54:29:203 Proceso Memoria/(23604:23625): [JOURNAL] No se pudo enviar ningun registro. No se hace el journal
+[INFO] 07:54:29:277 Proceso Memoria/(23604:23625): [JOURNAL] JOURNAL HECHO, LISANDRA HA RECIBIDO BIEN 0 REGISTROS, LIMPIO TODO
+[INFO] 07:54:29:282 Proceso Memoria/(23604:23625): [LIBERANDO MEMORIA] BORRO SEGMENTOS
+[INFO] 07:54:29:289 Proceso Memoria/(23604:23625): [LIBERANDO SEGMENTOS] Entrando, comienza la limpieza total
+[INFO] 07:54:29:290 Proceso Memoria/(23604:23625): [LIBERANDO SEGMENTOS] TODOS LOS SEGMENTOS FUERON LIBERADOS
+[INFO] 07:54:29:301 Proceso Memoria/(23604:23625): [LIBERANDO MEMORIA] MEMORIA LIBERADA
+[INFO] 07:54:29:321 Proceso Memoria/(23604:23625): [LOGGEANDO ESTADO ACTUAL MEMORIA] No se ha inicializado la tabla de segmentos
+[INFO] 07:54:29:322 Proceso Memoria/(23604:23625): [JOURNAL AUTOMATICO] 0 registros recibidos ok por LFS
+[INFO] 07:54:29:323 Proceso Memoria/(23604:23625): [JOURNAL AUTOMATICO] PROXIMO JOURNAL EN 50000 milisegundos
+[INFO] 07:54:34:587 Proceso Memoria/(23604:23685): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 07:54:34:590 Proceso Memoria/(23604:23622): [CLIENTE] Dando de alta cliente en socket 10
+[INFO] 07:54:34:591 Proceso Memoria/(23604:23622): [CLIENTE] Hay 3 clientes activos
+[INFO] 07:54:38:585 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 07:54:38:586 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 07:54:38:587 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 07:54:38:588 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 07:54:38:589 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 07:54:38:589 Proceso Memoria/(23604:23621): No hay memorias caidas
+[INFO] 07:54:38:591 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 07:54:38:591 Proceso Memoria/(23604:23621): [HILO GOSSIPING] La próxima ejecución será en 29997 milisegundos
+[INFO] 07:55:08:590 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 07:55:08:600 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 07:55:08:600 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 07:55:08:601 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 07:55:08:601 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 07:55:08:601 Proceso Memoria/(23604:23621): No hay memorias caidas
+[INFO] 07:55:08:602 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 07:55:08:607 Proceso Memoria/(23604:23621): [HILO GOSSIPING] La próxima ejecución será en 29993 milisegundos
+[WARNING] 07:55:19:327 Proceso Memoria/(23604:23625): [JOURNAL] ENTRANDO
+[INFO] 07:55:19:328 Proceso Memoria/(23604:23625): [JOURNAL] PROCEDO A ENVIAR LA INFORMACION A LISANDRA
+[INFO] 07:55:19:329 Proceso Memoria/(23604:23625): [JOURNAL] ENVIO EL MENSAJE A LISANDRA
+[INFO] 07:55:19:329 Proceso Memoria/(23604:23625): [ENVIANDO DATOS A LFS] Voy a crear conexión con LFS
+[INFO] 07:55:19:370 Proceso Memoria/(23604:23625): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 07:55:19:371 Proceso Memoria/(23604:23625): [ENVIANDO DATOS A LFS] Voy a enviarles los datos modificados
+[ERROR] 07:55:19:372 Proceso Memoria/(23604:23625): [JOURNAL] No se pudo enviar ningun registro. No se hace el journal
+[INFO] 07:55:19:373 Proceso Memoria/(23604:23625): [JOURNAL] JOURNAL HECHO, LISANDRA HA RECIBIDO BIEN 0 REGISTROS, LIMPIO TODO
+[INFO] 07:55:19:373 Proceso Memoria/(23604:23625): [LIBERANDO MEMORIA] BORRO SEGMENTOS
+[INFO] 07:55:19:374 Proceso Memoria/(23604:23625): [LIBERANDO SEGMENTOS] Entrando, comienza la limpieza total
+[INFO] 07:55:19:374 Proceso Memoria/(23604:23625): [LIBERANDO SEGMENTOS] TODOS LOS SEGMENTOS FUERON LIBERADOS
+[INFO] 07:55:19:374 Proceso Memoria/(23604:23625): [LIBERANDO MEMORIA] MEMORIA LIBERADA
+[INFO] 07:55:19:395 Proceso Memoria/(23604:23625): [LOGGEANDO ESTADO ACTUAL MEMORIA] No se ha inicializado la tabla de segmentos
+[INFO] 07:55:19:396 Proceso Memoria/(23604:23625): [JOURNAL AUTOMATICO] 0 registros recibidos ok por LFS
+[INFO] 07:55:19:396 Proceso Memoria/(23604:23625): [JOURNAL AUTOMATICO] PROXIMO JOURNAL EN 50000 milisegundos
+[INFO] 07:55:38:602 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 07:55:38:604 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 07:55:38:604 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 07:55:38:619 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 07:55:38:620 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 07:55:38:620 Proceso Memoria/(23604:23621): No hay memorias caidas
+[INFO] 07:55:38:620 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 07:55:38:621 Proceso Memoria/(23604:23621): [HILO GOSSIPING] La próxima ejecución será en 29999 milisegundos
+[INFO] 07:56:08:625 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 07:56:08:626 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 07:56:08:626 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 07:56:08:631 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 07:56:08:631 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 07:56:08:632 Proceso Memoria/(23604:23621): No hay memorias caidas
+[INFO] 07:56:08:632 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 07:56:08:633 Proceso Memoria/(23604:23621): [HILO GOSSIPING] La próxima ejecución será en 29998 milisegundos
+[WARNING] 07:56:09:397 Proceso Memoria/(23604:23625): [JOURNAL] ENTRANDO
+[INFO] 07:56:09:398 Proceso Memoria/(23604:23625): [JOURNAL] PROCEDO A ENVIAR LA INFORMACION A LISANDRA
+[INFO] 07:56:09:406 Proceso Memoria/(23604:23625): [JOURNAL] ENVIO EL MENSAJE A LISANDRA
+[INFO] 07:56:09:446 Proceso Memoria/(23604:23625): [ENVIANDO DATOS A LFS] Voy a crear conexión con LFS
+[INFO] 07:56:09:456 Proceso Memoria/(23604:23625): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 07:56:09:457 Proceso Memoria/(23604:23625): [ENVIANDO DATOS A LFS] Voy a enviarles los datos modificados
+[ERROR] 07:56:09:458 Proceso Memoria/(23604:23625): [JOURNAL] No se pudo enviar ningun registro. No se hace el journal
+[INFO] 07:56:09:458 Proceso Memoria/(23604:23625): [JOURNAL] JOURNAL HECHO, LISANDRA HA RECIBIDO BIEN 0 REGISTROS, LIMPIO TODO
+[INFO] 07:56:09:458 Proceso Memoria/(23604:23625): [LIBERANDO MEMORIA] BORRO SEGMENTOS
+[INFO] 07:56:09:474 Proceso Memoria/(23604:23625): [LIBERANDO SEGMENTOS] Entrando, comienza la limpieza total
+[INFO] 07:56:09:475 Proceso Memoria/(23604:23625): [LIBERANDO SEGMENTOS] TODOS LOS SEGMENTOS FUERON LIBERADOS
+[INFO] 07:56:09:476 Proceso Memoria/(23604:23625): [LIBERANDO MEMORIA] MEMORIA LIBERADA
+[INFO] 07:56:09:477 Proceso Memoria/(23604:23625): [LOGGEANDO ESTADO ACTUAL MEMORIA] No se ha inicializado la tabla de segmentos
+[INFO] 07:56:09:477 Proceso Memoria/(23604:23625): [JOURNAL AUTOMATICO] 0 registros recibidos ok por LFS
+[INFO] 07:56:09:478 Proceso Memoria/(23604:23625): [JOURNAL AUTOMATICO] PROXIMO JOURNAL EN 50000 milisegundos
+[INFO] 07:56:38:632 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 07:56:38:632 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 07:56:38:633 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 07:56:38:634 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 07:56:38:635 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 07:56:38:635 Proceso Memoria/(23604:23621): No hay memorias caidas
+[INFO] 07:56:38:636 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 07:56:38:637 Proceso Memoria/(23604:23621): [HILO GOSSIPING] La próxima ejecución será en 29997 milisegundos
+[WARNING] 07:56:59:479 Proceso Memoria/(23604:23625): [JOURNAL] ENTRANDO
+[INFO] 07:56:59:480 Proceso Memoria/(23604:23625): [JOURNAL] PROCEDO A ENVIAR LA INFORMACION A LISANDRA
+[INFO] 07:56:59:481 Proceso Memoria/(23604:23625): [JOURNAL] ENVIO EL MENSAJE A LISANDRA
+[INFO] 07:56:59:482 Proceso Memoria/(23604:23625): [ENVIANDO DATOS A LFS] Voy a crear conexión con LFS
+[INFO] 07:56:59:493 Proceso Memoria/(23604:23625): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 07:56:59:494 Proceso Memoria/(23604:23625): [ENVIANDO DATOS A LFS] Voy a enviarles los datos modificados
+[ERROR] 07:56:59:498 Proceso Memoria/(23604:23625): [JOURNAL] No se pudo enviar ningun registro. No se hace el journal
+[INFO] 07:56:59:499 Proceso Memoria/(23604:23625): [JOURNAL] JOURNAL HECHO, LISANDRA HA RECIBIDO BIEN 0 REGISTROS, LIMPIO TODO
+[INFO] 07:56:59:500 Proceso Memoria/(23604:23625): [LIBERANDO MEMORIA] BORRO SEGMENTOS
+[INFO] 07:56:59:501 Proceso Memoria/(23604:23625): [LIBERANDO SEGMENTOS] Entrando, comienza la limpieza total
+[INFO] 07:56:59:501 Proceso Memoria/(23604:23625): [LIBERANDO SEGMENTOS] TODOS LOS SEGMENTOS FUERON LIBERADOS
+[INFO] 07:56:59:502 Proceso Memoria/(23604:23625): [LIBERANDO MEMORIA] MEMORIA LIBERADA
+[INFO] 07:56:59:509 Proceso Memoria/(23604:23625): [LOGGEANDO ESTADO ACTUAL MEMORIA] No se ha inicializado la tabla de segmentos
+[INFO] 07:56:59:510 Proceso Memoria/(23604:23625): [JOURNAL AUTOMATICO] 0 registros recibidos ok por LFS
+[INFO] 07:56:59:510 Proceso Memoria/(23604:23625): [JOURNAL AUTOMATICO] PROXIMO JOURNAL EN 50000 milisegundos
+[INFO] 07:57:08:634 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 07:57:08:635 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 07:57:08:636 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 07:57:08:637 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 07:57:08:637 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 07:57:08:638 Proceso Memoria/(23604:23621): No hay memorias caidas
+[INFO] 07:57:08:645 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 07:57:08:646 Proceso Memoria/(23604:23621): [HILO GOSSIPING] La próxima ejecución será en 29991 milisegundos
+[INFO] 07:57:38:416 Proceso Memoria/(23604:23621): [HILO GOSSIPING] La próxima ejecución será en 221 milisegundos
+[INFO] 07:57:38:638 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 07:57:38:638 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 07:57:38:639 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 07:57:38:639 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 07:57:38:639 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 07:57:38:640 Proceso Memoria/(23604:23621): No hay memorias caidas
+[INFO] 07:57:38:640 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 07:57:38:641 Proceso Memoria/(23604:23621): [HILO GOSSIPING] La próxima ejecución será en 29998 milisegundos
+[WARNING] 07:57:49:286 Proceso Memoria/(23604:23625): [JOURNAL] ENTRANDO
+[INFO] 07:57:49:286 Proceso Memoria/(23604:23625): [JOURNAL] PROCEDO A ENVIAR LA INFORMACION A LISANDRA
+[INFO] 07:57:49:287 Proceso Memoria/(23604:23625): [JOURNAL] ENVIO EL MENSAJE A LISANDRA
+[INFO] 07:57:49:287 Proceso Memoria/(23604:23625): [ENVIANDO DATOS A LFS] Voy a crear conexión con LFS
+[INFO] 07:57:49:292 Proceso Memoria/(23604:23625): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 07:57:49:294 Proceso Memoria/(23604:23625): [ENVIANDO DATOS A LFS] Voy a enviarles los datos modificados
+[ERROR] 07:57:49:298 Proceso Memoria/(23604:23625): [JOURNAL] No se pudo enviar ningun registro. No se hace el journal
+[INFO] 07:57:49:299 Proceso Memoria/(23604:23625): [JOURNAL] JOURNAL HECHO, LISANDRA HA RECIBIDO BIEN 0 REGISTROS, LIMPIO TODO
+[INFO] 07:57:49:301 Proceso Memoria/(23604:23625): [LIBERANDO MEMORIA] BORRO SEGMENTOS
+[INFO] 07:57:49:301 Proceso Memoria/(23604:23625): [LIBERANDO SEGMENTOS] Entrando, comienza la limpieza total
+[INFO] 07:57:49:302 Proceso Memoria/(23604:23625): [LIBERANDO SEGMENTOS] TODOS LOS SEGMENTOS FUERON LIBERADOS
+[INFO] 07:57:49:303 Proceso Memoria/(23604:23625): [LIBERANDO MEMORIA] MEMORIA LIBERADA
+[INFO] 07:57:49:303 Proceso Memoria/(23604:23625): [LOGGEANDO ESTADO ACTUAL MEMORIA] No se ha inicializado la tabla de segmentos
+[INFO] 07:57:49:305 Proceso Memoria/(23604:23625): [JOURNAL AUTOMATICO] 0 registros recibidos ok por LFS
+[INFO] 07:57:49:306 Proceso Memoria/(23604:23625): [JOURNAL AUTOMATICO] PROXIMO JOURNAL EN 50000 milisegundos
+[INFO] 07:58:08:641 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 07:58:08:642 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 07:58:08:642 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 07:58:08:643 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 07:58:08:643 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 07:58:08:644 Proceso Memoria/(23604:23621): No hay memorias caidas
+[INFO] 07:58:08:650 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 07:58:08:653 Proceso Memoria/(23604:23621): [HILO GOSSIPING] La próxima ejecución será en 29990 milisegundos
+[INFO] 07:58:38:654 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 07:58:38:657 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 07:58:38:706 Proceso Memoria/(23604:23621): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 07:58:38:707 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 07:58:38:708 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 07:58:38:709 Proceso Memoria/(23604:23621): No hay memorias caidas
+[INFO] 07:58:38:804 Proceso Memoria/(23604:23621): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 07:58:38:805 Proceso Memoria/(23604:23621): [HILO GOSSIPING] La próxima ejecución será en 29902 milisegundos
+[WARNING] 07:58:39:309 Proceso Memoria/(23604:23625): [JOURNAL] ENTRANDO
+[INFO] 07:58:39:355 Proceso Memoria/(23604:23625): [JOURNAL] PROCEDO A ENVIAR LA INFORMACION A LISANDRA
+[INFO] 07:58:39:356 Proceso Memoria/(23604:23625): [JOURNAL] ENVIO EL MENSAJE A LISANDRA
+[INFO] 07:58:39:358 Proceso Memoria/(23604:23625): [ENVIANDO DATOS A LFS] Voy a crear conexión con LFS
+[INFO] 07:58:39:380 Proceso Memoria/(23604:23625): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 07:58:39:380 Proceso Memoria/(23604:23625): [ENVIANDO DATOS A LFS] Voy a enviarles los datos modificados
+[ERROR] 07:58:39:383 Proceso Memoria/(23604:23625): [JOURNAL] No se pudo enviar ningun registro. No se hace el journal
+[INFO] 07:58:39:384 Proceso Memoria/(23604:23625): [JOURNAL] JOURNAL HECHO, LISANDRA HA RECIBIDO BIEN 0 REGISTROS, LIMPIO TODO
+[INFO] 07:58:39:384 Proceso Memoria/(23604:23625): [LIBERANDO MEMORIA] BORRO SEGMENTOS
+[INFO] 07:58:39:385 Proceso Memoria/(23604:23625): [LIBERANDO SEGMENTOS] Entrando, comienza la limpieza total
+[INFO] 07:58:39:385 Proceso Memoria/(23604:23625): [LIBERANDO SEGMENTOS] TODOS LOS SEGMENTOS FUERON LIBERADOS
+[INFO] 07:58:39:386 Proceso Memoria/(23604:23625): [LIBERANDO MEMORIA] MEMORIA LIBERADA
+[INFO] 07:58:39:387 Proceso Memoria/(23604:23625): [LOGGEANDO ESTADO ACTUAL MEMORIA] No se ha inicializado la tabla de segmentos
+[INFO] 07:58:39:387 Proceso Memoria/(23604:23625): [JOURNAL AUTOMATICO] 0 registros recibidos ok por LFS
+[INFO] 07:58:39:388 Proceso Memoria/(23604:23625): [JOURNAL AUTOMATICO] PROXIMO JOURNAL EN 50000 milisegundos
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

@@ -1,0 +1,186 @@
+[INFO] 07:54:34:537 [MAIN]- Proceso Kernel./(23676:23676): [MAIN]- Por cargar configuracion desde archivo.
+[INFO] 07:54:34:538 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]-Por reservar memoria para variable de configuracion.
+[INFO] 07:54:34:538 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]-Por crear el archivo de config para levantar archivo con datos.
+[INFO] 07:54:34:538 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]- Leyendo Archivo de Configuracion...
+[INFO] 07:54:34:538 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]-Almacenando el puerto
+[INFO] 07:54:34:538 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]- El puerto de la memoria es: 8005
+[INFO] 07:54:34:538 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]- Almacenando la IP de la Memoria
+[INFO] 07:54:34:538 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]- La Ip de la memoria es: 127.0.0.1
+[INFO] 07:54:34:538 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]- Almancenando el Quantum del planificador
+[INFO] 07:54:34:538 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]- El Quantum del planificador es: 1
+[INFO] 07:54:34:538 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]- Almacenando el valor del Multiprocesamiento para el Planificador
+[INFO] 07:54:34:543 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]- El grado de multiprocesamiento del planificador es: 3
+[INFO] 07:54:34:543 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]- Almacenando el valor del Metadata Refresh para el Kernel
+[INFO] 07:54:34:543 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]- El valor del Metadata Refresh es: 15000
+[INFO] 07:54:34:543 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]- Almacenando el valor del Sleep Ejecucion para el Kernel
+[INFO] 07:54:34:545 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]- El valor del Sleep Ejecucion es: 10
+[ERROR] 07:54:34:545 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]- El archivo de configuracion no tiene el valor del Retardo de Gossiping. Se utiliza 20000 milisegundos
+[INFO] 07:54:34:545 [MAIN]- Proceso Kernel./(23676:23676): [CARGAR CONFIGURACION]- Cargamos todo lo que se encontro en el archivo de configuracion. Liberamos la variable config que fue utlizada para navegar el archivo de configuracion
+[INFO] 07:54:34:545 [MAIN]- Proceso Kernel./(23676:23676): [MAIN]- La carga de archivo de configuracion finalizo.
+[INFO] 07:54:34:545 [MAIN]- Proceso Kernel./(23676:23676): [MAIN]- Hilo de actualización de retardos y Quantum corriendo
+[INFO] 07:54:34:545 [MAIN]- Proceso Kernel./(23676:23676): [INICIANDO HILO GOSSIPING] Voy a crear hilo
+[INFO] 07:54:34:546 [MAIN]- Proceso Kernel./(23676:23676): [INICIANDO HILO GOSSIPING] Hilo creado
+[INFO] 07:54:34:546 [MAIN]- Proceso Kernel./(23676:23676): [MAIN]- Creamos hilo para actualizar la metadata de las tablas
+[INFO] 07:54:34:546 [MAIN]- Proceso Kernel./(23676:23676): [MAIN]- Creamos hilo para Consola.
+[INFO] 07:54:34:555 [MAIN]- Proceso Kernel./(23676:23680): [nivelMultiprogramacion]- Entrando a nivel 0 de multiprogramacion
+[INFO] 07:54:34:556 [MAIN]- Proceso Kernel./(23676:23678): [HILO GOSSIPING] Entrando a hilo
+[INFO] 07:54:34:556 [MAIN]- Proceso Kernel./(23676:23678): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 07:54:34:556 [MAIN]- Proceso Kernel./(23676:23678): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 07:54:34:556 [MAIN]- Proceso Kernel./(23676:23678): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 07:54:34:556 [MAIN]- Proceso Kernel./(23676:23678): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8005>
+[INFO] 07:54:34:561 [MAIN]- Proceso Kernel./(23676:23676): [MAIN]- Creamos hilo para Metricas.
+[INFO] 07:54:34:564 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Entrando a hilo de actualizacion
+[INFO] 07:54:34:566 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 07:54:34:566 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 07:54:34:565 [MAIN]- Proceso Kernel./(23676:23682): [nivelMultiprogramacion]- Entrando a nivel 2 de multiprogramacion
+[INFO] 07:54:34:565 [MAIN]- Proceso Kernel./(23676:23683): [CONSOLA]- En el hilo de consola.
+[INFO] 07:54:34:565 [MAIN]- Proceso Kernel./(23676:23681): [nivelMultiprogramacion]- Entrando a nivel 1 de multiprogramacion
+[INFO] 07:54:34:575 [MAIN]- Proceso Kernel./(23676:23678): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 07:54:39:632 [MAIN]- Proceso Kernel./(23676:23683): [CONSOLA]- Viene el comando en la cadena: ADD
+[INFO] 07:54:39:634 [MAIN]- Proceso Kernel./(23676:23683): [buscarComando]- Recibimos el comando: ADD
+[INFO] 07:54:39:634 [MAIN]- Proceso Kernel./(23676:23683): [buscarComando]- Se devuelve el valor 6
+[INFO] 07:54:39:635 [MAIN]- Proceso Kernel./(23676:23683): [CONSOLA]- El Enum correspondiente para el comando es: 6
+[INFO] 07:54:39:635 [MAIN]- Proceso Kernel./(23676:23683): [CONSOLA]- ADD ingresado.
+[INFO] 07:54:39:635 [MAIN]- Proceso Kernel./(23676:23683): [comandoAdd]- Llego el comando ADD.
+[INFO] 07:54:39:635 [MAIN]- Proceso Kernel./(23676:23683): [buscarCriterio]- Recibimos el criterio: SC
+[INFO] 07:54:39:635 [MAIN]- Proceso Kernel./(23676:23683): [buscarCriterio]- Se devuelve el valor 0
+[INFO] 07:54:39:635 [MAIN]- Proceso Kernel./(23676:23683): [buscarMemoria]- Voy a buscar memoria 5
+[INFO] 07:54:39:635 [MAIN]- Proceso Kernel./(23676:23683): [buscarMemoria]- No se encontro memoria -1
+[INFO] 07:54:39:636 [MAIN]- Proceso Kernel./(23676:23683): [comandoAdd]- La memoria 5 memoria no ha sido encontrada
+[INFO] 07:54:49:569 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 07:54:49:569 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 07:55:04:574 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[INFO] 07:55:04:603 [MAIN]- Proceso Kernel./(23676:23684): [imprimirMetricas]- Ultima actualizacion hace 30 segundos
+[INFO] 07:55:04:625 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Read latency: 0.00ms
+[INFO] 07:55:04:625 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Write latency: 0.00ms
+[INFO] 07:55:04:625 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Reads: 0
+[INFO] 07:55:04:626 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Writes: 0
+[INFO] 07:55:04:626 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Read latency: 0.00ms
+[INFO] 07:55:04:626 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Write latency: 0.00ms
+[INFO] 07:55:04:626 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Reads: 0
+[INFO] 07:55:04:626 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Writes: 0
+[INFO] 07:55:04:626 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Read latency: 0.00ms
+[INFO] 07:55:04:626 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Write latency: 0.00ms
+[INFO] 07:55:04:626 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Reads: 0
+[INFO] 07:55:04:626 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Writes: 0
+[ERROR] 07:55:04:632 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 07:55:19:633 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 07:55:19:634 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 07:55:34:628 [MAIN]- Proceso Kernel./(23676:23684): [imprimirMetricas]- Ultima actualizacion hace 30 segundos
+[INFO] 07:55:34:628 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Read latency: 0.00ms
+[INFO] 07:55:34:628 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Write latency: 0.00ms
+[INFO] 07:55:34:629 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Reads: 0
+[INFO] 07:55:34:630 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Writes: 0
+[INFO] 07:55:34:630 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Read latency: 0.00ms
+[INFO] 07:55:34:630 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Write latency: 0.00ms
+[INFO] 07:55:34:630 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Reads: 0
+[INFO] 07:55:34:630 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Writes: 0
+[INFO] 07:55:34:630 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Read latency: 0.00ms
+[INFO] 07:55:34:630 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Write latency: 0.00ms
+[INFO] 07:55:34:630 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Reads: 0
+[INFO] 07:55:34:630 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Writes: 0
+[INFO] 07:55:34:636 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 07:55:34:653 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 07:55:49:656 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 07:55:49:656 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 07:56:04:631 [MAIN]- Proceso Kernel./(23676:23684): [imprimirMetricas]- Ultima actualizacion hace 30 segundos
+[INFO] 07:56:04:631 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Read latency: 0.00ms
+[INFO] 07:56:04:632 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Write latency: 0.00ms
+[INFO] 07:56:04:632 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Reads: 0
+[INFO] 07:56:04:632 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Writes: 0
+[INFO] 07:56:04:632 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Read latency: 0.00ms
+[INFO] 07:56:04:632 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Write latency: 0.00ms
+[INFO] 07:56:04:632 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Reads: 0
+[INFO] 07:56:04:632 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Writes: 0
+[INFO] 07:56:04:632 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Read latency: 0.00ms
+[INFO] 07:56:04:632 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Write latency: 0.00ms
+[INFO] 07:56:04:632 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Reads: 0
+[INFO] 07:56:04:632 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Writes: 0
+[INFO] 07:56:04:658 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 07:56:04:658 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 07:56:19:660 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 07:56:19:660 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 07:56:34:643 [MAIN]- Proceso Kernel./(23676:23684): [imprimirMetricas]- Ultima actualizacion hace 30 segundos
+[INFO] 07:56:34:643 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Read latency: 0.00ms
+[INFO] 07:56:34:643 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Write latency: 0.00ms
+[INFO] 07:56:34:644 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Reads: 0
+[INFO] 07:56:34:644 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Writes: 0
+[INFO] 07:56:34:644 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Read latency: 0.00ms
+[INFO] 07:56:34:644 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Write latency: 0.00ms
+[INFO] 07:56:34:644 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Reads: 0
+[INFO] 07:56:34:644 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Writes: 0
+[INFO] 07:56:34:644 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Read latency: 0.00ms
+[INFO] 07:56:34:644 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Write latency: 0.00ms
+[INFO] 07:56:34:644 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Reads: 0
+[INFO] 07:56:34:644 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Writes: 0
+[INFO] 07:56:34:663 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 07:56:34:663 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 07:56:49:666 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 07:56:49:667 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 07:57:04:646 [MAIN]- Proceso Kernel./(23676:23684): [imprimirMetricas]- Ultima actualizacion hace 30 segundos
+[INFO] 07:57:04:647 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Read latency: 0.00ms
+[INFO] 07:57:04:647 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Write latency: 0.00ms
+[INFO] 07:57:04:647 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Reads: 0
+[INFO] 07:57:04:647 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Writes: 0
+[INFO] 07:57:04:647 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Read latency: 0.00ms
+[INFO] 07:57:04:647 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Write latency: 0.00ms
+[INFO] 07:57:04:648 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Reads: 0
+[INFO] 07:57:04:648 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Writes: 0
+[INFO] 07:57:04:648 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Read latency: 0.00ms
+[INFO] 07:57:04:648 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Write latency: 0.00ms
+[INFO] 07:57:04:648 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Reads: 0
+[INFO] 07:57:04:648 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Writes: 0
+[INFO] 07:57:04:668 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 07:57:04:668 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 07:57:19:446 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 07:57:19:446 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 07:57:34:425 [MAIN]- Proceso Kernel./(23676:23684): [imprimirMetricas]- Ultima actualizacion hace 29 segundos
+[INFO] 07:57:34:425 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Read latency: 0.00ms
+[INFO] 07:57:34:425 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Write latency: 0.00ms
+[INFO] 07:57:34:425 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Reads: 0
+[INFO] 07:57:34:426 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Writes: 0
+[INFO] 07:57:34:426 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Read latency: 0.00ms
+[INFO] 07:57:34:426 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Write latency: 0.00ms
+[INFO] 07:57:34:426 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Reads: 0
+[INFO] 07:57:34:426 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Writes: 0
+[INFO] 07:57:34:429 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Read latency: 0.00ms
+[INFO] 07:57:34:429 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Write latency: 0.00ms
+[INFO] 07:57:34:429 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Reads: 0
+[INFO] 07:57:34:429 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Writes: 0
+[INFO] 07:57:34:448 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 07:57:34:448 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 07:57:49:449 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 07:57:49:450 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 07:58:04:432 [MAIN]- Proceso Kernel./(23676:23684): [imprimirMetricas]- Ultima actualizacion hace 30 segundos
+[INFO] 07:58:04:432 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Read latency: 0.00ms
+[INFO] 07:58:04:432 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Write latency: 0.00ms
+[INFO] 07:58:04:432 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Reads: 0
+[INFO] 07:58:04:433 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Writes: 0
+[INFO] 07:58:04:433 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Read latency: 0.00ms
+[INFO] 07:58:04:433 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Write latency: 0.00ms
+[INFO] 07:58:04:436 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Reads: 0
+[INFO] 07:58:04:436 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Writes: 0
+[INFO] 07:58:04:436 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Read latency: 0.00ms
+[INFO] 07:58:04:436 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Write latency: 0.00ms
+[INFO] 07:58:04:436 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Reads: 0
+[INFO] 07:58:04:436 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Writes: 0
+[INFO] 07:58:04:450 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 07:58:04:451 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 07:58:19:453 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 07:58:19:454 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 07:58:34:437 [MAIN]- Proceso Kernel./(23676:23684): [imprimirMetricas]- Ultima actualizacion hace 30 segundos
+[INFO] 07:58:34:438 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Read latency: 0.00ms
+[INFO] 07:58:34:438 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Write latency: 0.00ms
+[INFO] 07:58:34:438 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Reads: 0
+[INFO] 07:58:34:438 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SC. Writes: 0
+[INFO] 07:58:34:438 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Read latency: 0.00ms
+[INFO] 07:58:34:438 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Write latency: 0.00ms
+[INFO] 07:58:34:438 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Reads: 0
+[INFO] 07:58:34:438 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio SHC. Writes: 0
+[INFO] 07:58:34:438 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Read latency: 0.00ms
+[INFO] 07:58:34:438 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Write latency: 0.00ms
+[INFO] 07:58:34:438 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Reads: 0
+[INFO] 07:58:34:438 [MAIN]- Proceso Kernel./(23676:23684): [METRICAS] Criterio EC. Writes: 0
+[INFO] 07:58:34:456 [MAIN]- Proceso Kernel./(23676:23679): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 07:58:34:456 [MAIN]- Proceso Kernel./(23676:23679): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+                                                                                                                                             
